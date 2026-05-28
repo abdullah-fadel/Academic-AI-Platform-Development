@@ -1,4 +1,5 @@
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 from models import SessionLocal, Visit
 from datetime import datetime, timedelta
 from fastapi import APIRouter
